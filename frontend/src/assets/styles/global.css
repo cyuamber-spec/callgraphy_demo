@@ -1,0 +1,265 @@
+/* ========== 翰墨千秋 - 全局样式 ========== */
+/* 中国宫廷用色系：朱红、明黄、青绿、藏蓝、赭石、宣纸白 */
+
+:root {
+  /* 宫廷色系 */
+  --color-vermilion: #c3272b;     /* 朱砂红 */
+  --color-vermilion-light: #d96065;
+  --color-vermilion-dark: #9d2933;
+  --color-gold: #d4a017;          /* 明黄/金 */
+  --color-gold-light: #e6c558;
+  --color-jade: #5fa383;          /* 青绿 */
+  --color-jade-light: #7fb89a;
+  --color-azure: #2b4a6f;         /* 藏蓝 */
+  --color-ochre: #b0693a;         /* 赭石 */
+  --color-ink: #2c2c2c;           /* 墨色 */
+  --color-ink-light: #4a4a4a;
+
+  /* 宣纸色系 - 背景与文字 */
+  --bg-paper: #faf6ef;            /* 宣纸白 */
+  --bg-paper-warm: #f5efe2;       /* 暖宣纸 */
+  --bg-card: #ffffff;
+  --bg-hover: #f0ebe0;
+
+  /* 文字色 */
+  --text-primary: #2c2c2c;
+  --text-secondary: #6b6b6b;
+  --text-tertiary: #999999;
+  --text-inverse: #faf6ef;
+
+  /* 边框与阴影 */
+  --border-color: #e0d8c8;
+  --border-color-strong: #c8bda8;
+  --shadow-sm: 0 1px 3px rgba(44, 44, 44, 0.08);
+  --shadow-md: 0 4px 12px rgba(44, 44, 44, 0.1);
+  --shadow-lg: 0 8px 24px rgba(44, 44, 44, 0.12);
+
+  /* 尺寸 */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --max-width: 1200px;
+
+  /* 过渡 */
+  --transition: all 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  background-color: var(--bg-paper);
+  color: var(--text-primary);
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--color-vermilion);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-vermilion-dark);
+}
+
+/* ========== 布局组件 ========== */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ========== 按钮 ========== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 20px;
+  border: 1px solid var(--border-color-strong);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--color-vermilion);
+  color: var(--text-inverse);
+  border-color: var(--color-vermilion);
+}
+
+.btn-primary {
+  background: var(--color-vermilion);
+  color: var(--text-inverse);
+  border-color: var(--color-vermilion);
+}
+
+.btn-primary:hover {
+  background: var(--color-vermilion-dark);
+  border-color: var(--color-vermilion-dark);
+}
+
+/* ========== 朝代标签 ========== */
+.dynasty-tag {
+  display: inline-block;
+  padding: 2px 12px;
+  font-size: 13px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-paper-warm);
+  color: var(--color-azure);
+  border: 1px solid var(--border-color);
+  font-weight: 500;
+}
+
+/* ========== 书体标签 ========== */
+.style-tag {
+  display: inline-block;
+  padding: 2px 10px;
+  font-size: 12px;
+  border-radius: var(--radius-sm);
+  background: rgba(95, 163, 131, 0.12);
+  color: var(--color-jade);
+  border: 1px solid rgba(95, 163, 131, 0.3);
+}
+
+/* ========== 卡片 ========== */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+/* ========== 标题 ========== */
+.section-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 16px;
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 24px;
+  background: var(--color-vermilion);
+  border-radius: 2px;
+}
+
+.section-subtitle {
+  color: var(--text-secondary);
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+/* ========== 筛选栏 ========== */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+  padding: 16px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+}
+
+.filter-item {
+  padding: 6px 16px;
+  font-size: 14px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: inherit;
+}
+
+.filter-item:hover {
+  color: var(--color-vermilion);
+  border-color: var(--color-vermilion-light);
+}
+
+.filter-item.active {
+  background: var(--color-vermilion);
+  color: var(--text-inverse);
+  border-color: var(--color-vermilion);
+}
+
+/* ========== 空状态 ========== */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-tertiary);
+  font-size: 15px;
+}
+
+/* ========== 加载状态 ========== */
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-tertiary);
+  font-size: 15px;
+}
+
+/* ========== 响应式 ========== */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .filter-bar {
+    padding: 12px;
+  }
+}
+
+/* ========== 滚动条 ========== */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-paper-warm);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color-strong);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ochre);
+}
