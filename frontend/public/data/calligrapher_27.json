@@ -1,0 +1,21 @@
+{
+  "id": 27,
+  "name": "林散之",
+  "dynasty_id": 11,
+  "birth_year": 1898,
+  "death_year": 1989,
+  "style": "草书",
+  "introduction": "现代书法家、诗人。草书以「瘦劲」著称，笔法多变，墨色丰富，被誉为「草圣」。",
+  "dynasty_name": "近现代",
+  "dynasty_order": 11,
+  "works": [
+    {
+      "id": 51,
+      "calligrapher_id": 27,
+      "name": "草书论书诗",
+      "style": "草书",
+      "description": "林散之晚年草书。瘦劲飘逸，墨色枯润相间，为现代草书极品。",
+      "creation_year": 1980
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf6ef"/>
+      <stop offset="100%" stop-color="#f1e8d6"/>
+    </linearGradient>
+    <linearGradient id="sealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c3272b"/>
+      <stop offset="100%" stop-color="#a01f23"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#paper)"/>
+  <!-- 外层装饰边框 -->
+  <rect x="30" y="30" width="740" height="940" fill="none" stroke="#d4a017" stroke-width="2" opacity="0.5"/>
+  <rect x="40" y="40" width="720" height="920" fill="none" stroke="#d4a017" stroke-width="0.8" opacity="0.35"/>
+  <!-- 顶部标题区 -->
+  <text x="400.0" y="92" font-family="Songti SC, STSong, SimSun, serif" font-size="26" fill="#d4a017" text-anchor="middle" letter-spacing="6" opacity="0.85">草书</text>
+  <line x1="120" y1="112" x2="680" y2="112" stroke="#d4a017" stroke-width="0.8" opacity="0.4"/>
+  <!-- 竖排作品名 -->
+  
+  <text x="400.0" y="271.99999999999994" font-family="Songti SC, STSong, SimSun, serif" font-size="96" font-weight="700" fill="#2c2c2c" text-anchor="middle">草</text>
+  <text x="400.0" y="401.59999999999997" font-family="Songti SC, STSong, SimSun, serif" font-size="96" font-weight="700" fill="#2c2c2c" text-anchor="middle">书</text>
+  <text x="400.0" y="531.2" font-family="Songti SC, STSong, SimSun, serif" font-size="96" font-weight="700" fill="#2c2c2c" text-anchor="middle">论</text>
+  <text x="400.0" y="660.8" font-family="Songti SC, STSong, SimSun, serif" font-size="96" font-weight="700" fill="#2c2c2c" text-anchor="middle">书</text>
+  <text x="400.0" y="790.4000000000001" font-family="Songti SC, STSong, SimSun, serif" font-size="96" font-weight="700" fill="#2c2c2c" text-anchor="middle">诗</text>
+  <!-- 底部朝代落款 -->
+  <text x="400.0" y="890" font-family="Songti SC, STSong, SimSun, serif" font-size="22" fill="#6b5d4a" text-anchor="middle" letter-spacing="4" opacity="0.8">近现代 · 林散之</text>
+  <!-- 朱砂印章 -->
+  <rect x="366.0" y="910" width="68" height="68" fill="url(#sealGrad)" rx="4"/>
+  <text x="400.0" y="956" font-family="Songti SC, STSong, SimSun, serif" font-size="34" font-weight="700" fill="#faf6ef" text-anchor="middle">林</text>
+</svg>

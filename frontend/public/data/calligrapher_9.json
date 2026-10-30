@@ -1,0 +1,37 @@
+{
+  "id": 9,
+  "name": "颜真卿",
+  "dynasty_id": 5,
+  "birth_year": 709,
+  "death_year": 785,
+  "style": "楷书",
+  "introduction": "唐代杰出书法家。楷书雄强浑厚，气势磅礴，世称「颜体」。与柳公权并称「颜筋柳骨」。其行书《祭侄文稿》被誉为「天下第二行书」。",
+  "dynasty_name": "唐",
+  "dynasty_order": 5,
+  "works": [
+    {
+      "id": 17,
+      "calligrapher_id": 9,
+      "name": "多宝塔碑",
+      "style": "楷书",
+      "description": "颜真卿早期楷书代表作。结体严密，用笔劲健，为学习颜体楷书的入门范本。",
+      "creation_year": 752
+    },
+    {
+      "id": 18,
+      "calligrapher_id": 9,
+      "name": "祭侄文稿",
+      "style": "行书",
+      "description": "颜真卿悼念在安史之乱中殉国的侄子所作。情真意切，笔势激越，被誉为「天下第二行书」。",
+      "creation_year": 758
+    },
+    {
+      "id": 19,
+      "calligrapher_id": 9,
+      "name": "颜勤礼碑",
+      "style": "楷书",
+      "description": "颜真卿晚年为其曾祖父所立神道碑。楷书浑厚大气，为颜体成熟期代表作。",
+      "creation_year": 779
+    }
+  ]
+}

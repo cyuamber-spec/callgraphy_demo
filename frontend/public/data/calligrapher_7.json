@@ -1,0 +1,21 @@
+{
+  "id": 7,
+  "name": "虞世南",
+  "dynasty_id": 5,
+  "birth_year": 558,
+  "death_year": 638,
+  "style": "楷书",
+  "introduction": "唐代书法家、政治家，「初唐四大家」之一。师承智永，楷书外柔内刚，含蓄蕴藉，深得二王神韵。",
+  "dynasty_name": "唐",
+  "dynasty_order": 5,
+  "works": [
+    {
+      "id": 14,
+      "calligrapher_id": 7,
+      "name": "孔子庙堂碑",
+      "style": "楷书",
+      "description": "虞世南楷书代表作。笔画舒展，结体宽绰，气息温雅，为初唐楷书杰作。",
+      "creation_year": 633
+    }
+  ]
+}

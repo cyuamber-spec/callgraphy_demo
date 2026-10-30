@@ -1,0 +1,29 @@
+{
+  "id": 23,
+  "name": "郑板桥",
+  "dynasty_id": 10,
+  "birth_year": 1693,
+  "death_year": 1765,
+  "style": "六分半书",
+  "introduction": "清代书画家，「扬州八怪」之一。创「六分半书」，融合隶、楷、行、草于一体，参以画法，纵横错落，自成一格。",
+  "dynasty_name": "清",
+  "dynasty_order": 10,
+  "works": [
+    {
+      "id": 44,
+      "calligrapher_id": 23,
+      "name": "难得糊涂",
+      "style": "六分半书",
+      "description": "郑板桥名言书法。融合诸体，朴拙奇崛，尽显其「难得糊涂」之人生哲学。",
+      "creation_year": 1755
+    },
+    {
+      "id": 45,
+      "calligrapher_id": 23,
+      "name": "竹石图题跋",
+      "style": "行书",
+      "description": "郑板桥题画书法，以画法入书，错落有致。",
+      "creation_year": 1760
+    }
+  ]
+}

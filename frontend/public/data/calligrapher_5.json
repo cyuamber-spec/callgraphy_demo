@@ -1,0 +1,37 @@
+{
+  "id": 5,
+  "name": "王献之",
+  "dynasty_id": 4,
+  "birth_year": 344,
+  "death_year": 386,
+  "style": "行草",
+  "introduction": "东晋书法家，王羲之第七子。与父并称「二王」。其行草笔势飞动，气势豪迈，在乃父基础上更趋俊逸。",
+  "dynasty_name": "东晋",
+  "dynasty_order": 4,
+  "works": [
+    {
+      "id": 11,
+      "calligrapher_id": 5,
+      "name": "洛神赋十三行",
+      "style": "楷书",
+      "description": "王献之小楷书曹植《洛神赋》，仅存十三行。字形秀逸，笔法精妙，为小楷神品。",
+      "creation_year": 368
+    },
+    {
+      "id": 9,
+      "calligrapher_id": 5,
+      "name": "中秋帖",
+      "style": "行草",
+      "description": "王献之代表作，被乾隆列为「三希」之一。笔画连绵不断，气势纵横，为行草珍品。",
+      "creation_year": 370
+    },
+    {
+      "id": 10,
+      "calligrapher_id": 5,
+      "name": "鸭头丸帖",
+      "style": "行草",
+      "description": "王献之行草书札，仅二行十五字。笔致洒脱，韵味悠长。",
+      "creation_year": 375
+    }
+  ]
+}

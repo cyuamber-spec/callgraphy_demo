@@ -1,0 +1,21 @@
+{
+  "id": 19,
+  "name": "鲜于枢",
+  "dynasty_id": 8,
+  "birth_year": 1246,
+  "death_year": 1302,
+  "style": "行草",
+  "introduction": "元代书法家。与赵孟頫齐名，并称「南赵北鲜」。行草笔力遒健，气势雄放，得晋唐神韵。",
+  "dynasty_name": "元",
+  "dynasty_order": 8,
+  "works": [
+    {
+      "id": 38,
+      "calligrapher_id": 19,
+      "name": "苏轼海棠诗",
+      "style": "行书",
+      "description": "鲜于枢行书苏轼诗。笔势跌宕，骨力遒劲，尽显北鲜之雄。",
+      "creation_year": 1295
+    }
+  ]
+}

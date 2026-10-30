@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 const routes = [
   {
@@ -29,7 +29,8 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  // 使用 hash 模式，GitHub Pages 上刷新子路由不会 404
+  history: createWebHashHistory(),
   routes,
   scrollBehavior() {
     return { top: 0 }

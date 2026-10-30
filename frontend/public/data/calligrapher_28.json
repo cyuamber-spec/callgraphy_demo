@@ -1,0 +1,29 @@
+{
+  "id": 28,
+  "name": "启功",
+  "dynasty_id": 11,
+  "birth_year": 1912,
+  "death_year": 2005,
+  "style": "楷书",
+  "introduction": "现代学者、书法家。楷书清秀劲挺，自成「启体」。以学者之书著称，结体精严，韵味清雅。",
+  "dynasty_name": "近现代",
+  "dynasty_order": 11,
+  "works": [
+    {
+      "id": 52,
+      "calligrapher_id": 28,
+      "name": "论书绝句",
+      "style": "行楷",
+      "description": "启功自作论书绝句。行楷清秀挺拔，字字精到，为启体代表作。",
+      "creation_year": 1985
+    },
+    {
+      "id": 53,
+      "calligrapher_id": 28,
+      "name": "楷书字帖",
+      "style": "楷书",
+      "description": "启功楷书范本。结体严谨，笔画清劲，广为流传。",
+      "creation_year": 1990
+    }
+  ]
+}

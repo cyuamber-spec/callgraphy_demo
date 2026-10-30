@@ -1,0 +1,21 @@
+{
+  "id": 22,
+  "name": "祝允明",
+  "dynasty_id": 9,
+  "birth_year": 1461,
+  "death_year": 1527,
+  "style": "草书",
+  "introduction": "明代书法家，「吴门四家」之一。狂草纵横捭阖，气势磅礴，与文徵明齐名。人称「祝京兆」。",
+  "dynasty_name": "明",
+  "dynasty_order": 9,
+  "works": [
+    {
+      "id": 43,
+      "calligrapher_id": 22,
+      "name": "赤壁赋",
+      "style": "草书",
+      "description": "祝允明草书苏轼《赤壁赋》。狂草纵横，气势奔放，为明代草书杰作。",
+      "creation_year": 1515
+    }
+  ]
+}

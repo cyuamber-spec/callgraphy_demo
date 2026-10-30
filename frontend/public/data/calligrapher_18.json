@@ -1,0 +1,37 @@
+{
+  "id": 18,
+  "name": "赵孟頫",
+  "dynasty_id": 8,
+  "birth_year": 1254,
+  "death_year": 1322,
+  "style": "楷书",
+  "introduction": "元代书画家。楷书圆润遒美，世称「赵体」，与欧阳询、颜真卿、柳公权并称「楷书四大家」。倡导复古，回归晋唐，影响深远。",
+  "dynasty_name": "元",
+  "dynasty_order": 8,
+  "works": [
+    {
+      "id": 35,
+      "calligrapher_id": 18,
+      "name": "洛神赋",
+      "style": "行楷",
+      "description": "赵孟頫书曹植《洛神赋》。行楷飘逸秀丽，笔法精绝，为赵体代表作。",
+      "creation_year": 1300
+    },
+    {
+      "id": 37,
+      "calligrapher_id": 18,
+      "name": "妙严寺记",
+      "style": "楷书",
+      "description": "赵孟頫楷书碑记，笔法精到，温润秀美。",
+      "creation_year": 1302
+    },
+    {
+      "id": 36,
+      "calligrapher_id": 18,
+      "name": "胆巴碑",
+      "style": "楷书",
+      "description": "赵孟頫晚年楷书。笔画沉着稳健，结体端庄，为赵体楷书成熟之作。",
+      "creation_year": 1316
+    }
+  ]
+}

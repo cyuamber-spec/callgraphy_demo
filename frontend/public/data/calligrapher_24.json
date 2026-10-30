@@ -1,0 +1,21 @@
+{
+  "id": 24,
+  "name": "何绍基",
+  "dynasty_id": 10,
+  "birth_year": 1799,
+  "death_year": 1873,
+  "style": "行书",
+  "introduction": "清代书法家。融碑帖于一炉，行书回腕执笔，笔势奇崛，气势雄浑，为晚清碑学代表。",
+  "dynasty_name": "清",
+  "dynasty_order": 10,
+  "works": [
+    {
+      "id": 46,
+      "calligrapher_id": 24,
+      "name": "行书四条屏",
+      "style": "行书",
+      "description": "何绍基晚年行书。碑帖交融，笔力雄浑，为晚清行书巨制。",
+      "creation_year": 1865
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": 17,
+  "name": "陆游",
+  "dynasty_id": 7,
+  "birth_year": 1125,
+  "death_year": 1210,
+  "style": "行书",
+  "introduction": "南宋诗人、书法家。诗名盖世，书法亦精。行草笔势奔放，气象开阔，有诗人之气。",
+  "dynasty_name": "南宋",
+  "dynasty_order": 7,
+  "works": [
+    {
+      "id": 34,
+      "calligrapher_id": 17,
+      "name": "自书诗卷",
+      "style": "行草",
+      "description": "陆游晚年自书诗作。笔法老健，气势苍劲，为南宋书法珍品。",
+      "creation_year": 1204
+    }
+  ]
+}

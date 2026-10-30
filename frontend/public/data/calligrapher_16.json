@@ -1,0 +1,29 @@
+{
+  "id": 16,
+  "name": "蔡襄",
+  "dynasty_id": 6,
+  "birth_year": 1012,
+  "death_year": 1067,
+  "style": "楷书",
+  "introduction": "北宋书法家，「宋四家」之一。书法浑厚端庄，传承晋唐法度。以楷书、行书著称，风格温润秀劲。",
+  "dynasty_name": "北宋",
+  "dynasty_order": 6,
+  "works": [
+    {
+      "id": 33,
+      "calligrapher_id": 16,
+      "name": "扈从帖",
+      "style": "行书",
+      "description": "蔡襄行书，笔法精到，气韵清雅。",
+      "creation_year": 1060
+    },
+    {
+      "id": 32,
+      "calligrapher_id": 16,
+      "name": "澄心堂纸帖",
+      "style": "行楷",
+      "description": "蔡襄行楷代表作。笔画温润，结体端庄，尽显其浑厚典雅之风。",
+      "creation_year": 1063
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": 20,
+  "name": "董其昌",
+  "dynasty_id": 9,
+  "birth_year": 1555,
+  "death_year": 1636,
+  "style": "行书",
+  "introduction": "明代书画家。书法秀润虚灵，空灵淡雅，提倡「淡」的审美境界。对明末清初书法影响极大。",
+  "dynasty_name": "明",
+  "dynasty_order": 9,
+  "works": [
+    {
+      "id": 39,
+      "calligrapher_id": 20,
+      "name": "岳阳楼记",
+      "style": "行书",
+      "description": "董其昌行书代表作。笔致空灵，墨色清润，尽显其淡雅书风。",
+      "creation_year": 1620
+    },
+    {
+      "id": 40,
+      "calligrapher_id": 20,
+      "name": "蜀道难",
+      "style": "行书",
+      "description": "董其昌书李白诗，行书飘逸，气韵清雅。",
+      "creation_year": 1625
+    }
+  ]
+}

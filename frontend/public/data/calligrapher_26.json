@@ -1,0 +1,29 @@
+{
+  "id": 26,
+  "name": "于右任",
+  "dynasty_id": 11,
+  "birth_year": 1879,
+  "death_year": 1964,
+  "style": "标准草书",
+  "introduction": "近现代书法家、政治家。创「标准草书」，以「易识、易写、准确、美丽」为原则，整理历代草书，影响深远。",
+  "dynasty_name": "近现代",
+  "dynasty_order": 11,
+  "works": [
+    {
+      "id": 49,
+      "calligrapher_id": 26,
+      "name": "标准草书千字文",
+      "style": "草书",
+      "description": "于右任整理历代草书而成。规范草法，便于普及，为现代草书集大成之作。",
+      "creation_year": 1936
+    },
+    {
+      "id": 50,
+      "calligrapher_id": 26,
+      "name": "草书对联",
+      "style": "草书",
+      "description": "于右任草书联。笔势奔放，气度恢宏。",
+      "creation_year": 1950
+    }
+  ]
+}

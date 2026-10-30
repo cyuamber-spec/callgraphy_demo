@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "秦",
+    "sort_order": 1,
+    "start_year": -221,
+    "end_year": -206
+  },
+  {
+    "id": 2,
+    "name": "东汉",
+    "sort_order": 2,
+    "start_year": 25,
+    "end_year": 220
+  },
+  {
+    "id": 3,
+    "name": "三国魏",
+    "sort_order": 3,
+    "start_year": 220,
+    "end_year": 265
+  },
+  {
+    "id": 4,
+    "name": "东晋",
+    "sort_order": 4,
+    "start_year": 317,
+    "end_year": 420
+  },
+  {
+    "id": 5,
+    "name": "唐",
+    "sort_order": 5,
+    "start_year": 618,
+    "end_year": 907
+  },
+  {
+    "id": 6,
+    "name": "北宋",
+    "sort_order": 6,
+    "start_year": 960,
+    "end_year": 1127
+  },
+  {
+    "id": 7,
+    "name": "南宋",
+    "sort_order": 7,
+    "start_year": 1127,
+    "end_year": 1279
+  },
+  {
+    "id": 8,
+    "name": "元",
+    "sort_order": 8,
+    "start_year": 1271,
+    "end_year": 1368
+  },
+  {
+    "id": 9,
+    "name": "明",
+    "sort_order": 9,
+    "start_year": 1368,
+    "end_year": 1644
+  },
+  {
+    "id": 10,
+    "name": "清",
+    "sort_order": 10,
+    "start_year": 1644,
+    "end_year": 1912
+  },
+  {
+    "id": 11,
+    "name": "近现代",
+    "sort_order": 11,
+    "start_year": 1912,
+    "end_year": 2026
+  }
+]

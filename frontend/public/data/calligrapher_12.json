@@ -1,0 +1,29 @@
+{
+  "id": 12,
+  "name": "怀素",
+  "dynasty_id": 5,
+  "birth_year": 737,
+  "death_year": 799,
+  "style": "狂草",
+  "introduction": "唐代僧人书法家。狂草继承张旭又有发展，以「狂」继「颠」，笔法飞动，气势奔放。与张旭并称「颠张醉素」。",
+  "dynasty_name": "唐",
+  "dynasty_order": 5,
+  "works": [
+    {
+      "id": 24,
+      "calligrapher_id": 12,
+      "name": "自叙帖",
+      "style": "狂草",
+      "description": "怀素自述学书经历之作。通篇狂草，连绵不绝，如骤雨旋风，为怀素代表作。",
+      "creation_year": 777
+    },
+    {
+      "id": 25,
+      "calligrapher_id": 12,
+      "name": "苦笋帖",
+      "style": "草书",
+      "description": "怀素草书短札，笔势肥瘦相间，韵味清雅。",
+      "creation_year": 785
+    }
+  ]
+}

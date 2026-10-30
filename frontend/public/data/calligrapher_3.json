@@ -1,0 +1,29 @@
+{
+  "id": 3,
+  "name": "钟繇",
+  "dynasty_id": 3,
+  "birth_year": 151,
+  "death_year": 230,
+  "style": "楷书",
+  "introduction": "三国魏大臣、书法家。被后世尊为「楷书之祖」，与王羲之并称「钟王」。其楷书古朴自然，由隶入楷，开一代新风。",
+  "dynasty_name": "三国魏",
+  "dynasty_order": 3,
+  "works": [
+    {
+      "id": 4,
+      "calligrapher_id": 3,
+      "name": "宣示表",
+      "style": "楷书",
+      "description": "钟繇代表作，楷书初创之作。用笔沉稳，结体扁方，犹存隶意，为楷书开山之作。",
+      "creation_year": 220
+    },
+    {
+      "id": 5,
+      "calligrapher_id": 3,
+      "name": "荐季直表",
+      "style": "楷书",
+      "description": "钟繇上表荐举季直之作。笔画古拙，天真烂漫，被誉为「正书之祖」。",
+      "creation_year": 221
+    }
+  ]
+}

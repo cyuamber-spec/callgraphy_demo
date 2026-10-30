@@ -1,0 +1,29 @@
+{
+  "id": 10,
+  "name": "柳公权",
+  "dynasty_id": 5,
+  "birth_year": 778,
+  "death_year": 865,
+  "style": "楷书",
+  "introduction": "唐代书法家。楷书骨力道健，结构严紧，世称「柳体」。与颜真卿并称「颜筋柳骨」，同为「楷书四大家」之一。",
+  "dynasty_name": "唐",
+  "dynasty_order": 5,
+  "works": [
+    {
+      "id": 20,
+      "calligrapher_id": 10,
+      "name": "玄秘塔碑",
+      "style": "楷书",
+      "description": "柳公权代表作。笔画挺拔，骨力遒劲，结构中宫收紧，为柳体楷书典范。",
+      "creation_year": 841
+    },
+    {
+      "id": 21,
+      "calligrapher_id": 10,
+      "name": "神策军碑",
+      "style": "楷书",
+      "description": "柳公权晚年楷书，笔法更加精熟，骨力内含，为柳体精品。",
+      "creation_year": 843
+    }
+  ]
+}

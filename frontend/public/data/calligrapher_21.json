@@ -1,0 +1,29 @@
+{
+  "id": 21,
+  "name": "文徵明",
+  "dynasty_id": 9,
+  "birth_year": 1470,
+  "death_year": 1559,
+  "style": "行书",
+  "introduction": "明代书画家，「吴门四家」之一。诗文书画皆精，行书、小楷尤为世重。书法温润秀雅，法度严谨。",
+  "dynasty_name": "明",
+  "dynasty_order": 9,
+  "works": [
+    {
+      "id": 42,
+      "calligrapher_id": 21,
+      "name": "归去来辞",
+      "style": "小楷",
+      "description": "文徵明小楷书陶渊明文。字字精工，法度森严，为明代小楷典范。",
+      "creation_year": 1535
+    },
+    {
+      "id": 41,
+      "calligrapher_id": 21,
+      "name": "滕王阁序",
+      "style": "行书",
+      "description": "文徵明行书王勃名篇。笔法精到，气韵温润，为文氏行书精品。",
+      "creation_year": 1540
+    }
+  ]
+}

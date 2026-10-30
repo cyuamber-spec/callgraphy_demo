@@ -1,0 +1,29 @@
+{
+  "id": 11,
+  "name": "张旭",
+  "dynasty_id": 5,
+  "birth_year": 675,
+  "death_year": 750,
+  "style": "狂草",
+  "introduction": "唐代书法家，「草圣」。狂草纵横奔放，气势磅礴，与怀素并称「颠张醉素」。常于醉后挥毫，一气呵成。",
+  "dynasty_name": "唐",
+  "dynasty_order": 5,
+  "works": [
+    {
+      "id": 23,
+      "calligrapher_id": 11,
+      "name": "肚痛帖",
+      "style": "狂草",
+      "description": "张旭草书，仅六行三十字。由稳到狂，变化剧烈，尽显颠张之态。",
+      "creation_year": 738
+    },
+    {
+      "id": 22,
+      "calligrapher_id": 11,
+      "name": "古诗四帖",
+      "style": "狂草",
+      "description": "张旭狂草代表作，书古诗四首。笔势连绵，狂放不羁，为狂草巅峰之作。",
+      "creation_year": 740
+    }
+  ]
+}

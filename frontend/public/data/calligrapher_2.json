@@ -1,0 +1,21 @@
+{
+  "id": 2,
+  "name": "蔡邕",
+  "dynasty_id": 2,
+  "birth_year": 133,
+  "death_year": 192,
+  "style": "隶书",
+  "introduction": "东汉文学家、书法家。通经史、善辞赋，工篆隶。创「飞白书」技法，隶书方正典雅。",
+  "dynasty_name": "东汉",
+  "dynasty_order": 2,
+  "works": [
+    {
+      "id": 3,
+      "calligrapher_id": 2,
+      "name": "熹平石经",
+      "style": "隶书",
+      "description": "蔡邕等奏请正定六经文字，刻石立于太学，为中国最早的官定儒家经本。隶书工整端庄。",
+      "creation_year": 175
+    }
+  ]
+}

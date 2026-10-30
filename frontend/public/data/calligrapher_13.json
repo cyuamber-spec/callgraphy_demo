@@ -1,0 +1,29 @@
+{
+  "id": 13,
+  "name": "苏轼",
+  "dynasty_id": 6,
+  "birth_year": 1037,
+  "death_year": 1101,
+  "style": "行书",
+  "introduction": "北宋文学家、书画家，「宋四家」之首。行书丰腴跌宕，天真烂漫，自言「我书意造本无法」。代表作《寒食帖》被誉为「天下第三行书」。",
+  "dynasty_name": "北宋",
+  "dynasty_order": 6,
+  "works": [
+    {
+      "id": 26,
+      "calligrapher_id": 13,
+      "name": "寒食帖",
+      "style": "行书",
+      "description": "苏轼贬黄州时作，书寒食诗二首。情感起伏跌宕，笔法随情绪变化，被誉为「天下第三行书」。",
+      "creation_year": 1082
+    },
+    {
+      "id": 27,
+      "calligrapher_id": 13,
+      "name": "赤壁赋",
+      "style": "行楷",
+      "description": "苏轼书《前赤壁赋》。行楷温润秀逸，字字如珠，为其书法精品。",
+      "creation_year": 1082
+    }
+  ]
+}

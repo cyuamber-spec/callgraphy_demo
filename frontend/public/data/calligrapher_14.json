@@ -1,0 +1,29 @@
+{
+  "id": 14,
+  "name": "黄庭坚",
+  "dynasty_id": 6,
+  "birth_year": 1045,
+  "death_year": 1105,
+  "style": "行书",
+  "introduction": "北宋诗人、书法家，「宋四家」之一。行书长枪大戟，气势雄健，自成一家。与苏轼并称「苏黄」。",
+  "dynasty_name": "北宋",
+  "dynasty_order": 6,
+  "works": [
+    {
+      "id": 29,
+      "calligrapher_id": 14,
+      "name": "寒山子庞居士诗",
+      "style": "行书",
+      "description": "黄庭坚行书，笔法奇崛，结体纵横，尽显其书法个性。",
+      "creation_year": 1095
+    },
+    {
+      "id": 28,
+      "calligrapher_id": 14,
+      "name": "松风阁诗帖",
+      "style": "行书",
+      "description": "黄庭坚晚年行书代表作。笔画如长枪大戟，气势开阔，为黄体行书巅峰。",
+      "creation_year": 1100
+    }
+  ]
+}

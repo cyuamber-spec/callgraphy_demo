@@ -1,28 +1,48 @@
-# Angular specific
-/dist/
-/out-tsc/
-/tmp/
-/coverage/
-/e2e/test-output/
-/.angular/
-.angular/
+# Dependencies
+node_modules/
+**/node_modules/
 
-# Node modules and dependency files
-/node_modules/
-/package-lock.json
-/yarn.lock
+# Build output
+dist/
+**/dist/
+out-tsc/
 
-# Environment files
-/.env
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
 
-# Angular CLI and build artefacts
-/.angular-cli.json
-/.ng/
+# Environment
+.env
+.env.*
+!.env.example
 
-# TypeScript cache
-*.tsbuildinfo
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
+
+# WorkBuddy
+.workbuddy/
+
+# Database (可由 database.py 重建)
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+.tmp/

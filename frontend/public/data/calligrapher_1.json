@@ -1,0 +1,29 @@
+{
+  "id": 1,
+  "name": "李斯",
+  "dynasty_id": 1,
+  "birth_year": -280,
+  "death_year": -208,
+  "style": "小篆",
+  "introduction": "秦代政治家、书法家。统一六国文字，创立小篆，被誉为「篆书之祖」。其书法结构匀称、笔法圆润，对后世书法发展影响深远。",
+  "dynasty_name": "秦",
+  "dynasty_order": 1,
+  "works": [
+    {
+      "id": 1,
+      "calligrapher_id": 1,
+      "name": "峄山刻石",
+      "style": "小篆",
+      "description": "秦始皇东巡时所立，李斯书。笔法圆润挺拔，结构对称严谨，为小篆典范。",
+      "creation_year": -223
+    },
+    {
+      "id": 2,
+      "calligrapher_id": 1,
+      "name": "泰山刻石",
+      "style": "小篆",
+      "description": "秦始皇登泰山封禅所立，李斯撰并书。字形端整，气魄宏大。",
+      "creation_year": -219
+    }
+  ]
+}

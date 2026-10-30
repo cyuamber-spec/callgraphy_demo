@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf6ef"/>
+      <stop offset="100%" stop-color="#f3ebdd"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#paper)"/>
+  <!-- 装饰边框 -->
+  <rect x="14" y="14" width="372" height="272" fill="none" stroke="#5fa383" stroke-width="1.5" opacity="0.55"/>
+  <rect x="20" y="20" width="360" height="260" fill="none" stroke="#5fa383" stroke-width="0.6" opacity="0.35"/>
+  <!-- 书体标签 -->
+  <text x="34" y="46" font-family="Songti SC, STSong, SimSun, serif" font-size="15" fill="#5fa383" letter-spacing="3" opacity="0.8">行楷</text>
+  <!-- 作品名 -->
+  <text x="200.0" y="171.33333333333334" font-family="Songti SC, STSong, SimSun, serif" font-size="64" font-weight="700" fill="#3a3a3a" text-anchor="middle">澄心堂纸帖</text>
+  <!-- 朱砂印章 -->
+  <rect x="334" y="234" width="40" height="40" fill="#c3272b" rx="3"/>
+  <text x="354" y="260" font-family="Songti SC, STSong, SimSun, serif" font-size="20" font-weight="700" fill="#faf6ef" text-anchor="middle">蔡</text>
+</svg>
